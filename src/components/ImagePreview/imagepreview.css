@@ -1,0 +1,40 @@
+.main_image {
+  height: 500px;
+  width: auto;
+  border-radius: 20px;
+}
+/* .image_container img {
+  height: 500px;
+  width: auto;
+  border-radius: 20px;
+} */
+.image_container {
+  /* background-color: gray; */
+  padding: 10px;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  box-shadow: inset 0px 0px 20px 2px rgb(130 126 126 / 75%);
+  border-radius: 20px;
+  margin: 30px;
+  z-index: 1;
+}
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.image_title {
+  font-size: 30px;
+  padding-left: 10px;
+}
+
+.backtoalbum {
+  height: 25px;
+  padding-right: 10px;
+}
+
+.download img {
+  height: 35px;
+}
